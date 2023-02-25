@@ -29,5 +29,11 @@ def guest_update_view(request, pk):
         'guest': guest
     })
 
+def guest_remove_view(request, pk):
+    guest = get_object_or_404(Guest, pk=pk)
+    return render(request, 'guest_confirm_delete.html', context={'guest': guest})
 
-
+def guest_confirm_remove(request, pk):
+    guest = get_object_or_404(Guest, pk=pk)
+    guest.delete()
+    return redirect('index_view')

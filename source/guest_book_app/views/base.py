@@ -4,7 +4,7 @@ from guest_book_app.models import Guest
 
 # Create your views here.
 def index_view(request):
-    guests = Guest.objects.all()
+    guests = Guest.objects.exclude(is_deleted=True)
     context = {
         'guests': guests
     }

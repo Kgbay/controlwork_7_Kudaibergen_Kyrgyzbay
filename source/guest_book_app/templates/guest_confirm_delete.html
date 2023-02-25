@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}Add guest{% endblock %}
+{% block content %}
+    <div class="container">
+        <h1>Вы точно хотите удалить данные {{ guest.author }}?</h1>
+        <div class="row justify-content-center align-items-center">
+            <div class="col">
+                <p><b>{{ guest.text }}</b></p>
+            </div>
+            <form action="{% url 'guest_remove_confirm' guest.pk %}" method="post" class="form-rm-confirm">
+                {% csrf_token %}
+                <input type="submit" class="btn btn-danger" value="Да">
+                <a href="{% url 'index_view' %}" class="btn btn-success">Нет</a>
+            </form>
+        </div>
+    </div>
+{% endblock %}

@@ -5,7 +5,7 @@ from .models import Guest
 
 # Register your models here.
 class GuestAdmin(admin.ModelAdmin):
-    list_display = ('id', 'author', 'mail')
+    list_display = ('id', 'author', 'mail', 'status')
     list_filter = ('id', 'author', 'created_at')
     search_fields = ('author', 'text')
     fields = ('author', 'mail', 'text', 'status')

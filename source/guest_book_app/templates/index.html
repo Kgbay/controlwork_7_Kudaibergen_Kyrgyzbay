@@ -10,8 +10,8 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ guest.author }} ({{ guest.mail }})</h5>
                         <p class="card-text">{{ guest.text }}</p>
-                        <a href="#" class="btn btn-primary rm-btn"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
-                        <a href="#" class="btn btn-primary upd-btn"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                        <a href="{% url 'guest_remove' guest.pk %}" class="btn btn-primary rm-btn"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                        <a href="{% url 'guest_edit' guest.pk %}" class="btn btn-primary upd-btn"><i class="fa fa-pencil" aria-hidden="true"></i></a>
                     </div>
                 </div>
             {%  endif %}

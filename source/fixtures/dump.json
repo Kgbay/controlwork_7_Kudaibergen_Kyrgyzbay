@@ -18,11 +18,11 @@
   "pk": 2,
   "fields": {
     "author": "Sharlota Swift",
-    "mail": "sharlota_1982@mail.ru",
+    "mail": "sharlota_1988@mail.ru",
     "text": "Шарлота оставила отзыв о нашем отеле",
     "created_at": "2023-02-25T07:19:22.072Z",
-    "updated_at": "2023-02-25T07:19:22.072Z",
-    "status": "blocked",
+    "updated_at": "2023-02-25T12:14:49.988Z",
+    "status": "active",
     "is_deleted": false,
     "deleted_at": null
   }
@@ -35,21 +35,21 @@
     "mail": "jane_doe_1998@index.ru",
     "text": "Джейн приняла участие в ежегодном соревновании.",
     "created_at": "2023-02-25T07:20:58.244Z",
-    "updated_at": "2023-02-25T07:20:58.244Z",
+    "updated_at": "2023-02-25T12:02:08.842Z",
     "status": "active",
-    "is_deleted": false,
-    "deleted_at": null
+    "is_deleted": true,
+    "deleted_at": "2023-02-25T12:02:08.842Z"
   }
 },
 {
   "model": "guest_book_app.guest",
   "pk": 4,
   "fields": {
-    "author": "Kuka Kukabay",
+    "author": "Kuka Kukabay 56",
     "mail": "kuka_1203@mail.ru",
     "text": "Кука попробовал все блюда нашего ресторана.",
     "created_at": "2023-02-25T07:21:44.874Z",
-    "updated_at": "2023-02-25T07:21:44.874Z",
+    "updated_at": "2023-02-25T12:06:25.040Z",
     "status": "active",
     "is_deleted": false,
     "deleted_at": null
@@ -63,24 +63,24 @@
     "mail": "margo_1956@gmail.com",
     "text": "Маргарита очень любит путешестовать по окраине нашего отеля.",
     "created_at": "2023-02-25T07:22:56.136Z",
-    "updated_at": "2023-02-25T07:22:56.136Z",
-    "status": "blocked",
-    "is_deleted": false,
-    "deleted_at": null
+    "updated_at": "2023-02-25T12:05:25.022Z",
+    "status": "active",
+    "is_deleted": true,
+    "deleted_at": "2023-02-25T12:05:25.022Z"
   }
 },
 {
   "model": "guest_book_app.guest",
   "pk": 6,
   "fields": {
-    "author": "Martin Luxer",
+    "author": "Martin ",
     "mail": "martin_2058@mail.ru",
     "text": "Мартин осуществлял поддержку при поиске пропавших постояльцев.",
     "created_at": "2023-02-25T07:31:47.319Z",
-    "updated_at": "2023-02-25T07:31:47.319Z",
+    "updated_at": "2023-02-25T12:04:25.868Z",
     "status": "active",
-    "is_deleted": false,
-    "deleted_at": null
+    "is_deleted": true,
+    "deleted_at": "2023-02-25T12:04:25.868Z"
   }
 },
 {
@@ -107,6 +107,48 @@
     "created_at": "2023-02-25T07:35:23.050Z",
     "updated_at": "2023-02-25T07:35:23.050Z",
     "status": "blocked",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "guest_book_app.guest",
+  "pk": 9,
+  "fields": {
+    "author": "Jane Mirror",
+    "mail": "jane_mirror_1998@index.ru",
+    "text": "Джейн Миррор очень любит заниматься йогой.",
+    "created_at": "2023-02-25T10:24:55.852Z",
+    "updated_at": "2023-02-25T10:24:55.852Z",
+    "status": "blocked",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "guest_book_app.guest",
+  "pk": 11,
+  "fields": {
+    "author": "Kuka",
+    "mail": "kuka_1203@mail.ru",
+    "text": "Кука стремится стать хорошим программистом и мастером своего дела",
+    "created_at": "2023-02-25T10:34:17.337Z",
+    "updated_at": "2023-02-25T10:34:17.337Z",
+    "status": "active",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "guest_book_app.guest",
+  "pk": 12,
+  "fields": {
+    "author": "Madina88",
+    "mail": "madina@mail.ru",
+    "text": "Мадина очень любит убираться",
+    "created_at": "2023-02-25T10:35:24.880Z",
+    "updated_at": "2023-02-25T11:43:00.494Z",
+    "status": "active",
     "is_deleted": false,
     "deleted_at": null
   }
